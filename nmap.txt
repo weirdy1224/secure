@@ -1,0 +1,14 @@
+Nmap:
+N-map is a network scanner tool that is used to discover hosts and services on a computer network by sending packets and analyzing the responses. It provides a number of features for probing computer networks, including host discovery and service and operating system detection. These features are extensible by scripts that provide more advanced service detection, vulnerability detection and other features. Some of the options that are available in N-map are: 
+
+-Pn option
+he “-Pn” option tells the Nmap to skip the host discovery phase(which includes ping probes) and proceeds directly to port scanning. This is particularly useful when dealing with hosts that may be configured not to respond to ICMP ping requests.
+
+-sV option
+The “-sV” option helps in finding the version of the service that is currently running on the ports.
+
+-sS option
+The “-sS” option initiates a TCP SYN scan, often referred to as a stealth scan, to determine which ports on a target system are open.
+
+-T0 to -T5 option
+his option is used to perform searching levels from T0 to T5. T0 is extremely slow and designed to avoid detection. T3 is the default timing template, balances speed and reliability. T4 is faster than normal, increases the chance of detection and T5 is the fastest and most aggressive scan, likely to cause significant network disruption and may trigger IDS/IPS alerts.

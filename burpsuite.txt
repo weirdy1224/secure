@@ -1,0 +1,14 @@
+Burp Suite:
+Burp Suite is a proprietary software tool for security assessment and penetration testing of web applications. Burp Suite gives you full control, letting you combine advanced manual techniques with state of the art automation, to make you work faster and more effective. It features a collection of tools that can be used to assist in the process of web application pen testing. Some of the tools that Burp Suite offers are:
+
+Spider
+It is a web spider/crawler that is used to map the target web application. The objective of the mapping is to get a list of endpoints so that their functionality can be observed and potentially vulnerabilities can be found.
+
+Proxy
+Burp Suite contains an intercepting proxy that lets the user see and modify contents of the request and response while they are in transit. The proxy server can be adjusted to run on a specific loop-back ip and a port.
+
+Intruder
+Intruder is a Burp Suite feature that can be used to brute-force attacks on password forms, pin forms, and other such forms. It can be also used to perform dictionary attacks on password forms, fields that are suspected of being vulnerable to XSS or SQL injection.
+
+Repeater
+Repeater lets a user send requests repeatedly with manual modification. It can be used to verify whether the user-supplied values are being verified and what values is the server expecting in an input parameter/request header. 
